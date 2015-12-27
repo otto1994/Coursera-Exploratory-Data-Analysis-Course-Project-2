@@ -12,7 +12,7 @@ library("ggplot2")
 g <- ggplot(data = typeBaltimore,
             aes(year,Emissions,color = type)
             )
-
+##Use line graph to describe the relationship of emissions between types 
 g <- g+
   geom_line()+
   xlab("Year")+
